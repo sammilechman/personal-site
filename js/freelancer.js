@@ -24,3 +24,8 @@ $(function() {
 $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
+
+$("#submit-button").on("click", function(event){
+  event.preventDefault();
+  alert("Contact functionality is currently unavailable. Please copy and paste your message into an email to sam.milechman@gmail.com")
+});
